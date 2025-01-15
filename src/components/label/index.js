@@ -3,7 +3,7 @@ import React, { PureComponent } from 'react';
 import { Animated } from 'react-native';
 import { TextPropTypes } from 'deprecated-react-native-prop-types';
 
-import styles from './styles';
+import styles from './styles.js';
 
 export default class Label extends PureComponent {
   static defaultProps = {
